@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="55dp"
+        android:gravity="center_horizontal"
+        android:text="Sign In">
+
+    </TextView>
+
+    <EditText
+        android:textColor="@color/white"
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/textview_background">
+
+    </EditText>
+
+    <EditText
+        android:textColor="@color/white"
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/textview_background">
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/sigin1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Sign in"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white">
+    </Button>
+
+    <TextView
+        android:id="@+id/login"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="LOGIN TO ANOTHER ACCOUNT"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white">
+
+    </TextView>
+
+
+</LinearLayout>
